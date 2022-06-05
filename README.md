@@ -4,9 +4,9 @@ Docker based Minecraft server hosted within Github Codespaces
 
 ## Prerequisites
 
-To access the server I recomend using [Tailscale](https://tailscale.com/) or [Ngrok](https://ngrok.com/) with this repo using the official [Tailscale Dev-Container](https://github.com/tailscale/codespace).
-To configure Tailscale follow the instructions within the Tailscale Dev-Container [README](xxx).
+You'll need a free [Tailscale](https://tailscale.com/start) account to access the server after creation.  
+To configure Tailscale follow the instructions within the Tailscale Dev-Container [README](https://github.com/tailscale/codespace).
 
 ## Usage
 
-The ```setup.sh``` will unzip your ```data.zip``` into the ```data.zip``` folder and it will then start the server, you can then connect to the server using the Tailscale IP address of the server and port 25565.
+The Docker container is configured to use [itgz's docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) as the Minecraft server, more info on how the server can be configured can be found [here](https://github.com/itzg/docker-minecraft-server/blob/master/README.md).
