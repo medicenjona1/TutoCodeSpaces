@@ -10,3 +10,9 @@ To configure Tailscale follow the instructions within the Tailscale Dev-Containe
 ## Usage
 
 The Docker container is configured to use [itgz's docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) as the Minecraft server, more info on how the server can be configured can be found [here](https://github.com/itzg/docker-minecraft-server/blob/master/README.md).
+
+### Start the server
+
+```bash
+docker-compose up -d --force-recreate --remove-orphans -f "docker-compose.yml"
+```
