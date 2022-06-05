@@ -12,7 +12,7 @@ Then find the server's public URL in the [tunnels dashboard](https://dashboard.n
 
 ### Video Guide
 
-! To be filled
+[! To be filled](https://user-images.githubusercontent.com/53623449/172069962-cbcf9438-57cf-4f5b-b8a2-f60d87d7aa66.mp4)
 
 ### Server Repo
 
