@@ -1,5 +1,11 @@
 version: "3.8"
 services:
+  ngrok:
+    image: ngrok/ngrok
+    command: "tcp 25565"
+    environment:
+      NGROK_AUTHTOKEN: "xxxx"
+    restart: always
   minecraft-server:
     image: itzg/minecraft-server
     container_name: mc
@@ -10,3 +16,5 @@ services:
     volumes:
       - "./server-data:/data"
     restart: unless-stopped
+    depends_on:
+      - "ngrok"
